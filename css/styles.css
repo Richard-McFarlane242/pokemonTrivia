@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "share tech";
+    src: url("/fonts/ShareTech-Regular.ttf");
+}
+.correct{   
+    color: #00ff00;
+    font-family: "share tech";
+}
+.incorrect{
+    color: #ff0000;
+    font-family: "share tech";
+}
+body {
+    background-color: aliceblue;
+    color: #000000;
+    font-family: "share tech";
+    font-size: 16px;
+    padding: 20px;
+    margin:auto;
+    width:1000px;
+}
+
+main {
+    max-width: 1000px;
+    padding-top:20px;
+}
+
+img {
+    border-radius: 5px;
+    width: 200px;
+    height: 298px;
+}
+div {
+    font-size:20px;
+    font-weight: 900;
+    color: blueviolet;
+    padding-top:30px;
+}
+ul{
+    font-size:20px;
+    font-weight: 900;
+    color: #000000;
+    padding-top:3px;
+}
+em{
+    color: rgb(255, 0, 0);
+}
+strong{
+    color: green;
+}
+a {
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 900;
+    color: #000000;
+    padding-top:3px;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 900;
+    color: #000000;
+    padding-top:3px;
+}
+.fa-solid{
+    padding-left: 10px;
+}
